@@ -1,7 +1,6 @@
 # Future-Frame-Prediction
-Out-of-the-box code base for social distancing early forecasting. Given a video, this code will give out a warning if the system predicts that people will violate social distancing (getting closer with each other than 6 feet) in the next 5 seconds. This early warnings could help stop people before they are actually at risk of getting infected. See this [blog](https://medium.com/@junweil/social-distancing-early-forecasting-system-60186baa67f5).
+Out-of-the-box code base for future frame prediction. Given a video, this code will generate the next few frames of the video (getting closer with each other than 6 feet) in the next 5 seconds. This early warnings could help stop people before they are actually at risk of getting infected. See this [blog](https://medium.com/@junweil/social-distancing-early-forecasting-system-60186baa67f5).
 
-Keep social distancing (about 6 feet) and [save lives](https://www.cdc.gov/)!
 
 Below we show an example of the system output. If potential risks are detected, trajectory predictions are shown and warnings are printed near the person.
 
